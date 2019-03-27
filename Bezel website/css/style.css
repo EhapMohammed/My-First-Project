@@ -1,0 +1,406 @@
+body
+{
+    
+    box-sizing: border-box !important;
+    transition: all 1s ease-in-out !important;
+}
+#readyPage
+{
+    background-color: cadetblue;
+    width: 100%;
+    height: 900px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+#readyPage .container-fluid
+{
+    position: relative;
+    top: 48%;
+    left: 48%;
+}
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 6px;
+  width: 13px;
+  background: #fff;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+  left: 6px;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 26px;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 45px;
+  animation-delay: 0;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 6px;
+    height: 51px;
+  }
+  50%, 100% {
+    top: 19px;
+    height: 26px;
+  }
+}
+
+/* home screen */
+.home-screen .container-fluid,
+.home-screen .layer .mycontainer .col-md-4,
+.home-screen .layer .mycontainer .col-sm-12
+
+
+{
+    padding: 0px !important;
+}
+.home-screen .layer
+{
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+}
+.home-screen .layer .mycontainer
+{
+    background-color: rgba(0,0,0, .3);
+    position: fixed;
+    top: 0%;
+    z-index: 99;
+    color: #fff;
+}
+.sml-nav
+{
+    width: 25%;
+}
+.bgNav
+{
+    width: 58%;
+}
+h1
+{
+     font: normal bolder 400%/150% 'Poppins', sans-serif !important;  
+}
+h2
+{
+    font: normal bold 200%/100% 'Poppins', sans-serif !important;  
+}
+p
+{
+    font: normal 250 125%/150% 'Poppins', sans-serif !important;
+    color: gray;
+}
+.mynav-link 
+{
+    color: #fff !important;
+}
+.mynav-link:hover
+{
+    color: black !important;
+    font-weight: bold;
+}
+.mynav:hover
+{
+    background-color: white;
+
+}
+.mycaption
+{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+.header-socials 
+{
+  text-align: center !important; 
+    color: #fff !important;
+}
+.header-socials a .fab
+{
+    color: #fff;
+}
+@media ( max-width: 768px)
+{
+.personal-logo
+{
+display: none;
+}
+.header-socials a 
+{
+    display: none;
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+}
+.bgNav
+{
+flex-wrap: nowrap !important;
+width: 100%;
+}
+    .ulNav
+{
+display: block;
+    width: 100%;
+}
+    .ulNav .mynav
+{
+display: inline-block;
+flex-wrap: wrap;
+width: 13%;
+font: normal bold 100%/5% 'Poppins', sans-serif !important;
+text-align: end;
+}
+}
+@media ( max-width:500px)
+{
+.home-screen .layer .mycontainer .col-md-4
+{
+display: none;
+    width: 0%;
+}
+.home-screen .layer .mycontainer .row
+{
+flex-wrap: nowrap !important;
+text-align: center;
+width: 100%;
+
+}
+.personal-logo
+{
+    display: none;
+}
+.bgNav
+{
+flex-wrap: nowrap !important;
+width: 100%;
+}
+.mycaption
+{
+   position: absolute;
+    top: 30%;
+    left: 13%;
+}
+  .carousel-caption h1
+{
+     font: normal bolder 90%/60% 'Poppins', sans-serif !important;  
+}
+ .carousel-caption h4
+{
+    font: normal bold 75%/160% 'Poppins', sans-serif !important;  
+}
+ .carousel-caption p a
+{
+    font: normal 250 50%/60% 'Poppins', sans-serif !important;
+}
+.header-socials a 
+    {
+        display: none;
+        padding-left: 5px!important;
+        padding-right: 5px!important;
+    }
+.ulNav
+{
+display: block;
+}
+.ulNav .mynav
+{
+display: inline-block;
+flex-wrap: wrap;
+width: 12.5%;
+font: normal bold 55%/5% 'Poppins', sans-serif !important;
+    text-align: end;
+}
+ .collapse:not(.show)
+{
+    display:inline-block;
+}
+.d-none
+{
+    display: block !important;
+    
+}
+    .mynav-link:hover
+{
+    color: black !important;
+    font-weight: bold;
+}
+   .pricing-table
+{
+    transition:all .7s ease-in-out;
+    margin: 20px 0px ;
+}
+    .pricing-table:hover
+{
+    transform: scale(1.1);
+}
+}
+
+
+/* what we do */
+.we .container
+{
+     background-image: url('images/bg-image-26.jpg');
+     
+}
+.missions .row
+{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.we-do-p
+{
+    font: normal bold 100%/150% 'Ubuntu', sans-serif !important;
+}
+/* prices */
+.pricing-table
+{
+    transition:all .5s ease-in-out;
+}
+.pricing-table:hover
+{
+    transform: scale(1.1);
+}
+.pricing-table .featured-label
+{
+    background-color: #ffec079e;
+    color: red;
+    font-weight: bold;
+}
+
+/* ourwok*/
+.item
+{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.item-caption
+{
+    text-align: center;
+    background-color: #fff;
+    width: 80%;
+    padding: 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 10%;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transition: all 0.3s;
+    transition-delay: .5s;
+    transform: translateY(0px)
+}
+.img-item
+{
+    transition: all .5s;
+    cursor: pointer;
+}
+.item:hover .img-item
+{
+    transform: scale(1.2)
+}
+.item:hover .item-caption
+{
+    opacity: 1;
+        transform: translateY(-30px)
+
+}
+
+.lightbox-container
+{
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 98;
+}
+.show
+{
+    display: block;
+}
+#close 
+{
+    cursor: pointer;
+    font-size: 20px;
+}
+.lightbox-img
+{
+    height: 500px;
+    background-image: url(../images/portfolio-2.jpg);
+    background-size: 100% 100%;
+    
+}
+.alaa
+{
+    margin-top: 150px;
+    position: relative;
+}
+#close
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#prev 
+{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+#next
+{
+    position: absolute;
+    top: 50%;
+    right: 10px ;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.mycolor
+{
+    background-color: blueviolet !important;
+}
+
+/* form controal*/
+.alert
+{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
