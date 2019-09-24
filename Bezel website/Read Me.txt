@@ -1,1 +1,1 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/43dca1a4-520a-4f33-85bf-42c0fe0c14d7/deploy-status)](https://app.netlify.com/sites/fervent-pike-4295d0/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/052887de-a94a-4977-b702-75a7f6be7a99/deploy-status)](https://app.netlify.com/sites/bezal/deploys)
